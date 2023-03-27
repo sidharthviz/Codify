@@ -8,6 +8,19 @@ const projects = document.querySelector(".projectsTitle")
 const phones = document.querySelectorAll(".phone")
 const laptops = document.querySelector(".laptop")
 
+
+
+
+
+
+
+
+//proj2
+function gotoLink(link){
+    console.log(link.value);
+    location.href = 'https://calmind.netlify.app/';
+}
+
 for(let i=0; i<369; i++){
 
  
