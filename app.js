@@ -9,7 +9,11 @@ const phones = document.querySelectorAll(".phone")
 const laptops = document.querySelector(".laptop")
 
 
-
+//proj1
+function toDo(link){
+    console.log(link.value);
+    location.href = "https://tweeet.netlify.app/";
+}
 
 
 
