@@ -250,10 +250,21 @@
     padding: 20px;
   }
 
- .list {
+ .list li {
     display: flex;
     list-style: none;
     gap: 30px;
+    color: #999;
+  }
+
+  .link {
+    list-style: none;
+    color: #999;
+    text-decoration: none;
+  }
+
+  .link:hover {
+    color: azure;
   }
   
   @media screen and (max-width:1024px) {
