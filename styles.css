@@ -306,6 +306,11 @@
       text-align: center;
     }
 
+    .gitimg{
+        height: 90px;
+        border-radius: 10px;
+    }
+    
     .icons {
         display: none;       
       }
