@@ -84,6 +84,10 @@
     height: 100vh;
     overflow: hidden;
   }
+
+  .wip{
+    background: radial-gradient(circle at -3.1% -4.3%, rgb(57, 255, 186) 0%, rgb(21, 38, 82) 90%);
+  }
   
   .project:nth-child(2n) {
     flex-direction: row-reverse;
@@ -123,15 +127,18 @@
   }
   
   .projectTitle {
+    border-radius: 30px;
+    padding: 10px;
     font-size: 7vw;
-    color: teal;
+    background: linear-gradient(89deg, rgb(21, 74, 189) 0.1%, rgb(26, 138, 211) 51.5%, rgb(72, 177, 234) 100.2%);
+
   }
   
   .projectDesc {
     font-size: 20px;
     color: #555;
     text-align: justify;
-    line-height: 40px;
+    line-height: 30px;
   }
   
   .projectButton {

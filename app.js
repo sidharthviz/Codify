@@ -6,7 +6,7 @@ const jobTitle = document.querySelectorAll(".jobTitleContainer")
 const hob = document.querySelectorAll(".jobTitle")
 const projects = document.querySelector(".projectsTitle")
 const phones = document.querySelectorAll(".phone")
-const laptops = document.querySelector(".laptop")
+const laptops = document.querySelectorAll(".laptop")
 
 
 //proj1
@@ -14,8 +14,6 @@ function toDo(link){
     console.log(link.value);
     location.href = "https://tweeet.netlify.app/";
 }
-
-
 
 
 
@@ -60,8 +58,10 @@ window.addEventListener("scroll", ()=> {
     hob[0].style.transform = `translateX(calc(200vh - ${offsetY}px))`
     hob[1].style.transform = `translateX(calc(-300vh + ${offsetY}px))`
     projects.style.transform = `translateX(calc(400vh - ${offsetY}px))`
-    phones[0].style.transform = `translateX(calc(500vh - ${offsetY}px))`
-    phones[1].style.transform = `translateX(calc(750vh - ${offsetY}px))`
-    laptops.style.transform = `translateX(calc(610vh - ${offsetY}px))`
+    phones[0].style.transform = `translateX(calc(650vh - ${offsetY}px))`
+    phones[1].style.transform = `translateX(calc(900vh - ${offsetY}px))`
+    laptops[0].style.transform = `translateX(calc(510vh - ${offsetY}px))`
+    laptops[1].style.transform = `translateX(calc(760vh - ${offsetY}px))`
+    // laptops[0].style.transform = `translateX(calc(510vh - ${offsetY}px))`
 })
 
