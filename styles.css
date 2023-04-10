@@ -292,6 +292,7 @@
   
     .phone,.laptop{
       transform: none !important;
+      display: none;
     }
 
     .githubChart{

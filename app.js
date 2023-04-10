@@ -23,6 +23,13 @@ function gotoLink(link){
     location.href = 'https://calmind.netlify.app/';
 }
 
+
+//proj3
+function dapp(link){
+    console.log(link.value);
+    location.href = "https://dappcord-blond.vercel.app/";
+}
+
 for(let i=0; i<369; i++){
 
  
